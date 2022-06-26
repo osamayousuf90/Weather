@@ -1,0 +1,147 @@
+.container-weather {
+    width: 100%;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: relative;
+    background-color: black;
+    background: linear-gradient(to bottom right, #0099cc 0%, #99ccff 100%);
+    /* background-image: url("./bg//pexels-nathan-baldwin-5908584.mp4"); */
+  
+
+}
+
+
+
+
+
+
+.weather-1{
+  /* margin: 2rem; */
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+
+  height: 60%;
+  width:30%;
+}
+
+.weather-1 > h2 {
+  position: absolute;
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: bold !important;
+  color: white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.weather-1 p {
+  position: absolute;
+  color: white;
+  font-family: fantasy;
+  font-weight: 500;
+  font-size: 2rem;
+  /* text-align: center; */
+}
+
+
+
+
+.weather {
+  /* background-color: white; */
+  height: 90%;
+  width: 40%; 
+  /* z-index: 10 !important; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* align-items: center; */
+  border-radius: 2rem;
+  /* margin: 0 auto; */
+  position: relative;
+  background-image: url("./assests//cold.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: brightness(90%);
+  color: white;
+}
+
+.column {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.input-field {
+  width: 80%;
+  padding: 15px;
+  height: 5px;
+  margin: 1rem;
+  background-color: lightblue;
+  border: none;
+  outline: none;
+  transition: 0.4s all !important;
+  border-radius: 15px;
+  color: white;
+}
+
+
+
+
+.input-field:focus {
+  width: 80%;
+  padding: 15px;
+  height: 5px;
+  margin: 1rem ;
+  background-color: rgb(38, 146, 182);
+  border: none;
+  outline: none;
+  color: white;
+}
+
+
+
+
+.location_box {
+  position: relative;
+  margin-top: 4rem;
+}
+
+.location h1{
+   font-size: 3rem !important;
+   position: relative;
+   margin-bottom: -1rem;
+}
+
+.date h4{
+  font-size: 1rem;
+  position: relative;
+  margin-bottom: -1.5rem;
+
+}
+
+.temp {
+  position: relative;
+  font-size: 3rem;
+  font-weight: bold;
+  margin-top: -3rem;
+
+}
+
+.weather_w_s {
+  position: relative;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+
+.little_details {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  
+}
