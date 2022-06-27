@@ -1,4 +1,3 @@
-import './App.css';
 import Weather from './components/Weather';
 import Loader from './components/Loader/logo-loader';
 import "./components/Weather/style.css";
