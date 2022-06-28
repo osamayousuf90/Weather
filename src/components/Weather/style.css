@@ -258,3 +258,23 @@
 .weather_normal_text_nobody {
   display: none;
 }
+
+.search_btn {
+  background-color: transparent;
+  position: absolute;
+  width: 20%;
+  height: 35px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  margin: 1rem 22rem;
+  color: white;
+  transition: 0.2s all;
+  cursor: pointer;
+}
+
+.search_btn:hover {
+  background-color: transparent;
+  color: rgb(107, 107, 107);
+
+}

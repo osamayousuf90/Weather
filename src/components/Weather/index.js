@@ -93,7 +93,7 @@ const Weather = () => {
               value={query}
               onKeyDown={checkBtn}
             />
-            <button onClick={() => search()}>Search</button>
+            <button className="search_btn" onClick={() => search()}><i class="fa-solid fa-magnifying-glass"></i></button>
             <div className={(typeof weather.main == "undefined") ? "weather_normal_text" : "weather_normal_text_nobody"}>Search Here</div>
 
             {typeof weather.main != "undefined" ? (
